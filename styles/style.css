@@ -1,0 +1,78 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* common style or utilities*/
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background: #ffffff;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 677px;
+  background: #2d25a0;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+h1 {
+  width: 485px;
+  height: 230px;
+  color: #ffffff;
+  font-size: 64px;
+  margin-left: 156px;
+  margin-top: 207px;
+  margin-bottom: 240px;
+  margin-right: 102px;
+  line-height: 80px;
+}
+.button {
+  display: flex;
+  text-align: left;
+  background: #e02c6d;
+  align-items: center;
+  width: 168px;
+  height: 44px;
+}
+.b-button {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 24px;
+}
+span {
+  content: "\2192";
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 8px;
+}
+.banner img {
+  width: 556.01px;
+  height: 438px;
+  /* left: 1299.01px;
+  top: 153px; */
+  margin-top: 153px;
+  margin-right: 140.99px;
+  margin-bottom: 86px;
+  left: 1299.01px;
+}
+/* ----------------
+     players-list
+        ------------- */
+.players-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  background: red;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
