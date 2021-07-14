@@ -1,6 +1,8 @@
 /* font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap");
+
 /* common style or utilities*/
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
@@ -43,6 +45,11 @@ body {
   text-align: center;
   padding: 10px 24px;
 }
+.button :hover {
+  opacity: 0.8;
+  transition: 0.3s;
+  color: #2d25a0;
+}
 span {
   content: "\2192";
   width: 24px;
@@ -56,9 +63,11 @@ span {
   width: 556.01px;
   height: 438px;
 }
+
 /* ----------------
      players-list
         ------------- */
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -67,9 +76,9 @@ span {
   padding-top: 70px;
 }
 .player img {
-  /* width: 90%; */
   width: 290px;
   height: 256px;
+  border-radius: 5px;
 }
 h2 {
   width: 300px;
@@ -89,7 +98,20 @@ p {
   width: 290px;
   height: 400px;
   background: #ffffff;
+  border-radius: 5px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.pl_img {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.pl_img img {
+  width: 100%;
+}
+.player:hover.player img {
+  transform: scale(1.2);
+  transition: 3s;
 }
 .players-list {
   width: 330px;
@@ -97,6 +119,33 @@ p {
   padding-bottom: 27px;
 }
 
+/* -----------
+    News 
+    ------------*/
+
+.title {
+  text-align: center;
+  color: #2d25a0;
+  font-size: 30px;
+}
+.news-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 30px;
+  margin-bottom: 40px;
+}
+.news-template img {
+  width: 400px;
+  height: 300px;
+}
+
+/* -----------
+      theme 
+      -------------*/
+.theme {
+  margin-left: 480px;
+}
 /* ---------------
       Footer 
       -------------*/
@@ -111,6 +160,7 @@ footer {
 .logo img {
   width: 483.87px;
   height: 110px;
+  margin-top: 50px;
   margin-left: -130px;
   margin-bottom: 20px;
 }
@@ -130,5 +180,5 @@ footer {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
-  margin: 20px 0px 63px;
+  margin: 20px 0px 30px;
 }
