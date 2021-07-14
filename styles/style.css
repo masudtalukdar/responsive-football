@@ -96,3 +96,39 @@ p {
   height: 450px;
   padding-bottom: 27px;
 }
+
+/* ---------------
+      Footer 
+      -------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+.logo img {
+  width: 483.87px;
+  height: 110px;
+  margin-left: -130px;
+  margin-bottom: 20px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  margin: 0px 12px;
+}
+.social-icons img {
+  height: 35px;
+  width: 35px;
+}
+.copyright {
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 20px 0px 63px;
+}
